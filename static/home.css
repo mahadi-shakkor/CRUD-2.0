@@ -1,28 +1,42 @@
-body
-{
-    background-color: rgb(107, 189, 152);
+/* Body Styling */
+body {
+    background-color: rgb(107, 189, 152); /* Sets the background color */
 }
 
-#DivOne
-{
-    background-color: rgb(226, 225, 223);
-    max-width: fit-content;
-    padding: 1%;
-    margin-left: 40%;
-    margin-top: 15%;
+/* Styling for DivOne */
+#DivOne {
+    background-color: rgb(226, 225, 223); /* Light gray background for DivOne */
+    max-width: fit-content; /* Adjusts the width to fit the content */
+    padding: 1%; /* Padding around the content */
+    margin-left: 40%; /* Centers the div horizontally */
+    margin-top: 15%; /* Adds a margin from the top */
+    border-radius: 10px; /* Optional: rounds the corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
 }
 
-#btn
-{
-    margin-left: 35%;
+/* Button Styling */
+#btn {
+    margin-left: 35%; /* Centers the button */
+    padding: 10px 20px; /* Adds padding inside the button */
+    background-color: rgb(107, 189, 152); /* Matches body background */
+    color: white; /* White text on the button */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
 }
 
-#DivTwo
-{
-    margin-left: 90%;
+#btn:hover {
+    background-color: rgb(87, 159, 122); /* Darker shade when hovered */
 }
 
-#id
-{
-    margin-left: 13.9%;
+/* Styling for DivTwo */
+#DivTwo {
+    margin-left: 90%; /* Moves DivTwo to the far right */
+    margin-top: 20px; /* Adds some margin to the top */
+}
+
+/* Styling for id */
+#id {
+    margin-left: 13.9%; /* Aligns the element */
+    font-weight: bold; /* Optional: makes the text bold */
 }
